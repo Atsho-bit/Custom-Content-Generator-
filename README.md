@@ -1,14 +1,8 @@
-Here's the revised README with no tables, concise sentences, and straight to the point:
-
----
-
 # PromoGenie – AI-Powered Marketing Copy Generator
 
 **Live Demo:**  https://attached-assets--atshonota357.replit.app/ 
 
-**Date:** 08 May 2026  
 **Author:** Nota Atsho  
-**Tech Career Accelerator – 2026**
 
 ---
 
