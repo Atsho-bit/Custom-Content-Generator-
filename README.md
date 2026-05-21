@@ -1,118 +1,84 @@
-
-
-# PromoGenie – AI-Powered Marketing Copy Generator
-
-**Live Demo:**(https://attached-assets--atshonota357.replit.app/) 
- 
- 
-**Author:** Nota Atsho  
-**Tech Career Accelerator – 2026**
-
-
-
-## Overview
-
-PromoGenie is a full-stack AI-powered marketing copy generator that produces high-quality content including product descriptions, social media captions, ad text, promotional messages, and hashtags based on user input.
-
-
-
-## Key Features
-
-- Generate marketing content with customizable **tone**, **audience**, **platform**, and **key selling points**
-- **5 prompt templates**: Standard, Storytelling, Feature-Focused, Urgency & Sale, Minimalist
-- **History feature** – save and revisit previously generated content
-- Structured AI outputs (5 content types per request)
-
-
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-------------|
-| Frontend | React |
-| Backend | Express.js |
-| AI Model | OpenAI GPT (gpt-4.1-mini) |
-| Database | PostgreSQL |
+Here's the revised README with no tables, concise sentences, and straight to the point:
 
 ---
 
-## Architecture
+# PromoGenie – AI-Powered Marketing Copy Generator
 
-```
-User Input → AI Processing → Output Display → Save to Database
-```
+**Live Demo:**  https://attached-assets--atshonota357.replit.app/ 
+
+**Date:** 08 May 2026  
+**Author:** Nota Atsho  
+**Tech Career Accelerator – 2026**
+
+---
+
+## Overview
+
+PromoGenie is a full-stack AI-powered marketing copy generator that produces product descriptions, social media captions, ad text, promotional messages, and hashtags based on user input.
+
+---
+
+## Key Features
+
+Users can customize tone, audience, platform, and key selling points. The system offers five prompt templates: Standard, Storytelling, Feature-Focused, Urgency & Sale, and Minimalist. A history feature lets users save and revisit past generated content.
+
+---
+
+## Tech Stack
+
+Frontend uses React. Backend uses Express.js. AI model is OpenAI GPT (gpt-4.1-mini). Database is PostgreSQL.
+
 
 ---
 
 ## API Selection Rationale
 
-**OpenAI GPT (gpt-4.1-mini)** was chosen for:
-- Strong instruction-following ability
-- Structured output generation
-- Token usage tracking
-- Built-in content safety
+OpenAI GPT was chosen for its strong instruction-following ability, structured output generation, token usage tracking, and built-in content safety.
 
 ---
 
 ## Prompt Engineering Methodology
 
-Each prompt includes:
-1. Role definition (AI as marketing expert)
-2. Instructions based on tone, audience, platform
-3. Structured output format (5 content types)
-4. Safety rules
+Each prompt includes a role definition (AI as marketing expert), instructions based on tone/audience/platform, a structured output format with five content types, and safety rules.
 
-### Prompt Templates
-
-| Template | Strength | Best Use Case |
-|----------|----------|----------------|
-| Standard | Balanced | General marketing |
-| Storytelling | Emotional | Lifestyle brands |
-| Feature-Focused | Technical | Tech products |
-| Urgency & Sale | Persuasive | Promotions |
-| Minimalist | Short & clean | Luxury brands |
+The five prompt templates serve different use cases. Standard is balanced for general marketing. Storytelling is emotional for lifestyle brands. Feature-Focused is technical for tech products. Urgency & Sale is persuasive for promotions. Minimalist is short and clean for luxury brands.
 
 ---
 
 ## Input Validation & Output Filtering
 
-- All fields required
-- Product description: minimum 10 words
-- Dropdown menus for consistent inputs
-- Output filtered for professionalism and tone matching
+All fields are required. Product descriptions must contain at least 10 words. Dropdown menus ensure consistent inputs. Outputs are filtered for professionalism and tone matching.
 
 ---
 
 ## Performance Metrics
 
-- Generation time: **2–5 seconds**
-- Token usage tracking for cost monitoring
+Average generation time is 2–5 seconds. Token usage is tracked for cost monitoring.
 
 ---
 
 ## Limitation Management
 
-| Limitation | Mitigation |
-|------------|------------|
-| API rate limits | Error handling messages |
-| Output quality variation | Minimum input requirements |
-| Response delays | Loading indicators |
+API rate limits are handled with error messages. Output quality variation is managed with minimum input requirements. Response delays use loading indicators.
 
 ---
 
 ## Sample Output (Standard Template)
 
-**Product Description:**  
-Upgrade your wardrobe with the Nike T-shirt, designed with high-quality fabric for comfort and durability.
+**Product Description:** Upgrade your wardrobe with the Nike T-shirt, designed with high-quality fabric for comfort and durability.
 
-**Social Media Caption:**  
-Stay stylish every day. Grab your Nike T-shirt now!
+**Social Media Caption:** Stay stylish every day. Grab your Nike T-shirt now!
 
-**Advertisement Text:**  
-Experience comfort and style with the Nike T-shirt.
+**Advertisement Text:** Experience comfort and style with the Nike T-shirt.
 
-**Short Promo Message:**  
-Style meets comfort.
+**Short Promo Message:** Style meets comfort.
 
-**Hashtags:**  
-`#Nike #TShirt #Streetwear #Fashion #EverydayStyle`
+**Hashtags:** #Nike #TShirt #Streetwear #Fashion #EverydayStyle
+
+---
+
+## Conclusion
+
+PromoGenie demonstrates effective prompt engineering, structured full-stack design, and practical application of generative AI for professional marketing content.
+
+---
